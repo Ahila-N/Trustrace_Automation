@@ -1,0 +1,3 @@
+com\SwagLabsDemo\pageObjects\LoginPage.class
+com\SwagLabsDemo\testcases\BaseClass.class
+com\SwagLabsDemo\testcases\LoginTest.class

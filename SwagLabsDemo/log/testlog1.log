@@ -1,0 +1,39 @@
+2020-12-05 15:37:22,623 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 15:37:22,978 [main] INFO SwagLabsDemo - Login test failed due to blank credentials
+2020-12-05 15:37:28,409 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 15:37:28,746 [main] INFO SwagLabsDemo - Login test failed due to invalid credentials
+2020-12-05 15:37:33,586 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 15:37:37,195 [main] INFO SwagLabsDemo - Login test passed
+2020-12-05 17:13:22,019 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:13:22,452 [main] INFO SwagLabsDemo - Login test failed due to blank credentials
+2020-12-05 17:13:28,419 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:13:28,768 [main] INFO SwagLabsDemo - Login test failed due to invalid credentials
+2020-12-05 17:13:34,170 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:13:34,559 [main] INFO SwagLabsDemo - Login test passed
+2020-12-05 17:15:06,119 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:15:06,682 [main] INFO SwagLabsDemo - Login test failed due to blank credentials
+2020-12-05 17:15:12,184 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:15:12,785 [main] INFO SwagLabsDemo - Login test failed due to invalid credentials
+2020-12-05 17:15:18,602 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:15:19,188 [main] INFO SwagLabsDemo - Login test passed
+2020-12-05 17:16:54,294 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:16:54,826 [main] INFO SwagLabsDemo - Login test failed due to blank credentials
+2020-12-05 17:17:01,168 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:17:01,576 [main] INFO SwagLabsDemo - Login test failed due to invalid credentials
+2020-12-05 17:17:07,590 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:19:21,493 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:19:21,863 [main] INFO SwagLabsDemo - Login test failed due to blank credentials
+2020-12-05 17:19:27,813 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:19:28,436 [main] INFO SwagLabsDemo - Login test failed due to invalid credentials
+2020-12-05 17:19:33,779 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:20:42,309 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:20:42,834 [main] INFO SwagLabsDemo - Login test failed due to blank credentials
+2020-12-05 17:20:48,804 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:20:49,221 [main] INFO SwagLabsDemo - Login test failed due to invalid credentials
+2020-12-05 17:20:54,996 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:22:25,359 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:22:25,877 [main] INFO SwagLabsDemo - Login test failed due to blank credentials
+2020-12-05 17:22:32,532 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:22:33,156 [main] INFO SwagLabsDemo - Login test failed due to invalid credentials
+2020-12-05 17:22:39,112 [main] INFO SwagLabsDemo - URL is opened
+2020-12-05 17:22:42,760 [main] INFO SwagLabsDemo - Login test passed
