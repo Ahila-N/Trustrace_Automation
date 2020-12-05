@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SwagLabsDemo">
+
+	<listeners>
+		<listener class-name="com.SwagLabsDemo.utilities.Reporting" />
+	</listeners>
+
+	<test name="SwagLabsDemo Test">
+		<classes>
+			<class name="com.SwagLabsDemo.testcases.LoginTest" />			
+		</classes>
+
+	</test>
+
+</suite>
