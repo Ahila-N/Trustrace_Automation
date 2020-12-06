@@ -55,3 +55,13 @@
 2020-12-05 18:28:59,553 [main] INFO SwagLabsDemo - Login test failed due to invalid credentials
 2020-12-05 18:29:07,309 [main] INFO SwagLabsDemo - URL is opened
 2020-12-05 18:29:10,744 [main] INFO SwagLabsDemo - Login test passed
+2020-12-06 23:55:18,873 [main] INFO SwagLabsDemo - URL is opened
+2020-12-06 23:55:26,522 [main] INFO SwagLabsDemo - Login test passed
+2020-12-06 23:58:05,876 [main] INFO SwagLabsDemo - URL is opened
+2020-12-06 23:58:07,947 [main] INFO SwagLabsDemo - Login test passed
+2020-12-07 00:45:10,156 [main] INFO SwagLabsDemo - URL is opened
+2020-12-07 00:45:12,651 [main] INFO SwagLabsDemo - Login test passed
+2020-12-07 00:47:54,523 [main] INFO SwagLabsDemo - URL is opened
+2020-12-07 00:47:56,344 [main] INFO SwagLabsDemo - Login test passed
+2020-12-07 01:04:44,963 [main] INFO SwagLabsDemo - URL is opened
+2020-12-07 01:04:47,796 [main] INFO SwagLabsDemo - Login test passed

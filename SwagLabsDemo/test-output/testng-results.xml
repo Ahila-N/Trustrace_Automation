@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-05T12:58:38Z" name="SwagLabsDemo" finished-at="2020-12-05T12:59:11Z" duration-ms="33512">
+  <suite started-at="2020-12-06T19:34:36Z" name="Default suite" finished-at="2020-12-06T19:34:48Z" duration-ms="12658">
     <groups>
     </groups>
-    <test started-at="2020-12-05T12:58:38Z" name="SwagLabsDemo Test" finished-at="2020-12-05T12:59:11Z" duration-ms="33512">
-      <class name="com.SwagLabsDemo.testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.SwagLabsDemo.testcases.LoginTest@610f7aa]" started-at="2020-12-05T12:58:38Z" name="setup" finished-at="2020-12-05T12:58:48Z" duration-ms="9922" status="PASS">
+    <test started-at="2020-12-06T19:34:36Z" name="Default test" finished-at="2020-12-06T19:34:48Z" duration-ms="12658">
+      <class name="com.SwagLabsDemo.testcases.SortItemsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.SwagLabsDemo.testcases.SortItemsTest@6676f6a0]" started-at="2020-12-06T19:34:36Z" name="setup" finished-at="2020-12-06T19:34:44Z" duration-ms="8716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="blankCredentialCheck()[pri:0, instance:com.SwagLabsDemo.testcases.LoginTest@610f7aa]" started-at="2020-12-05T12:58:48Z" name="blankCredentialCheck" finished-at="2020-12-05T12:58:49Z" duration-ms="1010" status="PASS">
+        <test-method signature="sortItems()[pri:0, instance:com.SwagLabsDemo.testcases.SortItemsTest@6676f6a0]" started-at="2020-12-06T19:34:44Z" name="sortItems" finished-at="2020-12-06T19:34:47Z" duration-ms="3006" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- blankCredentialCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLabsDemo.testcases.LoginTest@610f7aa]" started-at="2020-12-05T12:58:49Z" name="tearDown" finished-at="2020-12-05T12:58:51Z" duration-ms="1498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.SwagLabsDemo.testcases.LoginTest@610f7aa]" started-at="2020-12-05T12:58:51Z" name="setup" finished-at="2020-12-05T12:58:58Z" duration-ms="7003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="invalidCredentialsCheck()[pri:0, instance:com.SwagLabsDemo.testcases.LoginTest@610f7aa]" started-at="2020-12-05T12:58:58Z" name="invalidCredentialsCheck" finished-at="2020-12-05T12:58:59Z" duration-ms="1186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidCredentialsCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLabsDemo.testcases.LoginTest@610f7aa]" started-at="2020-12-05T12:58:59Z" name="tearDown" finished-at="2020-12-05T12:59:00Z" duration-ms="763" status="PASS">
+        </test-method> <!-- sortItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLabsDemo.testcases.SortItemsTest@6676f6a0]" started-at="2020-12-06T19:34:47Z" name="tearDown" finished-at="2020-12-06T19:34:48Z" duration-ms="868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.SwagLabsDemo.testcases.LoginTest@610f7aa]" started-at="2020-12-05T12:59:00Z" name="setup" finished-at="2020-12-05T12:59:07Z" duration-ms="6993" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validLoginCheck()[pri:0, instance:com.SwagLabsDemo.testcases.LoginTest@610f7aa]" started-at="2020-12-05T12:59:07Z" name="validLoginCheck" finished-at="2020-12-05T12:59:10Z" duration-ms="3433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLabsDemo.testcases.LoginTest@610f7aa]" started-at="2020-12-05T12:59:10Z" name="tearDown" finished-at="2020-12-05T12:59:11Z" duration-ms="1185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.SwagLabsDemo.testcases.LoginTest -->
-    </test> <!-- SwagLabsDemo Test -->
-  </suite> <!-- SwagLabsDemo -->
+      </class> <!-- com.SwagLabsDemo.testcases.SortItemsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
