@@ -9,7 +9,8 @@
 
 	<test name="SwagLabsDemo Test">
 		<classes>
-			<class name="com.SwagLabsDemo.testcases.LoginTest" />			
+<!-- 			<class name="com.SwagLabsDemo.testcases.LoginTest" />	 -->
+			<class name="com.SwagLabsDemo.testcases.SortItemsTest" />		
 		</classes>
 
 	</test>

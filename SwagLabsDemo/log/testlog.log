@@ -65,3 +65,42 @@
 2020-12-07 00:47:56,344 - SwagLabsDemo -INFO - Login test passed
 2020-12-07 01:04:44,963 - SwagLabsDemo -INFO - URL is opened
 2020-12-07 01:04:47,796 - SwagLabsDemo -INFO - Login test passed
+2020-12-07 19:44:57,310 - SwagLabsDemo -INFO - URL is opened
+2020-12-07 19:45:00,489 - SwagLabsDemo -INFO - Login test passed
+2020-12-07 19:47:03,779 - SwagLabsDemo -INFO - URL is opened
+2020-12-07 19:48:54,400 - SwagLabsDemo -INFO - URL is opened
+2020-12-07 19:50:15,031 - SwagLabsDemo -INFO - URL is opened
+2020-12-07 20:00:53,116 - SwagLabsDemo -INFO - URL is opened
+2020-12-07 20:00:56,290 - SwagLabsDemo -INFO - Login test passed
+2020-12-07 20:20:35,091 - SwagLabsDemo -INFO - URL is opened
+2020-12-07 20:20:37,859 - SwagLabsDemo -INFO - Login test passed
+2020-12-07 23:08:31,034 - SwagLabsDemo -INFO - URL is opened
+2020-12-07 23:08:36,912 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 00:24:45,630 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 00:24:47,802 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 00:27:19,816 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 00:27:22,031 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 00:31:38,633 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 00:31:40,954 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 00:35:57,754 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 00:36:00,156 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 00:37:40,292 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 00:37:42,321 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 12:19:53,411 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 12:19:59,198 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 12:20:25,206 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 12:20:31,901 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 12:30:12,282 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 12:30:41,115 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 12:35:23,459 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 12:35:34,649 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 12:48:25,586 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 12:48:44,210 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 12:52:51,240 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 12:54:36,870 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 13:04:13,919 - SwagLabsDemo -INFO - URL is opened
+2020-12-08 13:04:38,203 - SwagLabsDemo -INFO - Login test passed
+2020-12-08 13:04:38,552 - SwagLabsDemo -INFO - Ascending with Item Order Sort test passed
+2020-12-08 13:04:38,752 - SwagLabsDemo -INFO - Descending with Item Order Sort test passed
+2020-12-08 13:04:38,963 - SwagLabsDemo -INFO - Ascending with Price Order Sort test passed
+2020-12-08 13:04:39,160 - SwagLabsDemo -INFO - Descending with Order Sort test passed

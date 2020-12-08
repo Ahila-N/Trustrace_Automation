@@ -34,19 +34,6 @@ public class LoginPage {
 		UN.sendKeys(uName);
 		PW.sendKeys(pwd);
 		loginButton.click();
-	}
-	public void blankCredentials()
-	{
-		UN.sendKeys("");
-		PW.sendKeys("");
-		loginButton.click();
-	}
-	public void invalidCredentials(String invalidUserName, String invalidPwd)
-	{
-		UN.sendKeys(invalidUserName);
-		PW.sendKeys(invalidPwd);
-		loginButton.click();
-	}
-	
+	}	
 
 }

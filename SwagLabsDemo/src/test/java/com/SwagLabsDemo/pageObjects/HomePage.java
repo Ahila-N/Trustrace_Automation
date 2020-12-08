@@ -30,11 +30,9 @@ WebDriver ldriver;
 	WebElement sortCombo;
 	
 	@FindBy(how=How.XPATH, using ="//*[@class=\"inventory_item_name\"]")
-	@CacheLookup
 	List<WebElement> productNameList;
 	
 	@FindBy(how=How.XPATH, using ="//*[@class=\"inventory_item_price\"]")
-	@CacheLookup
 	List<WebElement> productPriceList;
 	
 	public List<String> getProductList()
@@ -47,42 +45,32 @@ WebDriver ldriver;
 		return productName;		
 	}
 	
-	public List<String> getProductPrice()
+	public List<Double> getProductPrice()
 	{		
 		Iterator<WebElement> itr = productPriceList.iterator();
-		List<String> productPrice = new ArrayList<String>();
+		List<Double> productPrice = new ArrayList<Double>();
 		while(itr.hasNext()) {			
-//			productPrice.add(itr.next().getText());	
-			System.out.println(itr.next().getText());
+			productPrice.add(Double.parseDouble(itr.next().getText().substring(1))); 
 		}
 		return productPrice;		
 	}
 	
 	
 	
-	public void sortOperation()
+	public List<String> comboTextValues()
 	{		
-//		sortCombo.click();
 		Select comboValue = new Select(sortCombo);
-		comboValue.selectByVisibleText("Name (Z to A)");
-		List<String> originalProducts = getProductList();
-		List<Object> cloneProductName = new ArrayList<Object>();
-		Boolean checkSort = true;
-		cloneProductName.addAll(originalProducts);
-		cloneProductName = cloneProductName.stream().sorted().collect(Collectors.toList());
-//		cloneProductName.stream().sorted(Collections.reverseOrder()).collect((Collectors.toList()));
-		for(int item =0;item<originalProducts.size();item++) {
-			if(!(originalProducts.get(item).equals(cloneProductName.get(item)))) {
-				checkSort = false;
-				break;
-			}
+		List<WebElement> optionValues=comboValue.getOptions();
+		List<String> textValues = new ArrayList<String>();
+		for(int index=0;index<optionValues.size();index++) {		
+			textValues.add(optionValues.get(index).getText().toString());
 		}
-		if(checkSort == true) {
-			System.out.println("sorted");
-		} else {
-			System.out.println("Unsorted");
-		}
-		
+		return textValues;		
+	}
+
+	public void getSelectedOption(String selectedOption) {
+		Select comboValue = new Select(sortCombo);
+		comboValue.selectByVisibleText(selectedOption);	
 	}
 	
 }
