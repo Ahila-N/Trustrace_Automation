@@ -28,36 +28,34 @@ HomePage hm;
 		{
 			Assert.assertTrue(true);		
 			logger.info("Login test passed");	
+			List<String> comboOptionValues = hm.comboTextValues();
+			 
+			 for(int comboOption =0 ; comboOption < comboOptionValues.size() ;comboOption++) {
+			 String selectedOption = comboOptionValues.get(comboOption);
+			 hm.getSelectedOption(selectedOption);
+			 if(selectedOption.equals("Name (A to Z)")) {
+				 itemSortOperation(true);
+				 logger.info("Ascending with Item Order Sort test passed");
+			 }  
+			 else if(selectedOption.equals("Name (Z to A)")) {
+				 itemSortOperation(false);
+				 logger.info("Descending with Item Order Sort test passed");
+			 } 
+			 else if(selectedOption.equals("Price (low to high)")) {
+				 priceSortOperation(true);
+				 logger.info("Ascending with Price Order Sort test passed");
+			 }else if(selectedOption.equals("Price (high to low)")) {
+				 priceSortOperation(false);
+				 logger.info("Descending with Order Sort test passed");
+			 }		 
+			 }
 		}
 		else
 		{
 			captureScreen(driver,"invalidCredentials");
 			Assert.assertTrue(false);		
 			logger.info("Login test failed");	
-		}
-		
-		 List<String> comboOptionValues = hm.comboTextValues();
-		 
-		 for(int comboOption =0 ; comboOption < comboOptionValues.size() ;comboOption++) {
-		 String selectedOption = comboOptionValues.get(comboOption);
-		 hm.getSelectedOption(selectedOption);
-		 if(selectedOption.equals("Name (A to Z)")) {
-			 itemSortOperation(true);
-			 logger.info("Ascending with Item Order Sort test passed");
-		 }  
-		 else if(selectedOption.equals("Name (Z to A)")) {
-			 itemSortOperation(false);
-			 logger.info("Descending with Item Order Sort test passed");
-		 } 
-		 else if(selectedOption.equals("Price (low to high)")) {
-			 priceSortOperation(true);
-			 logger.info("Ascending with Price Order Sort test passed");
-		 }else if(selectedOption.equals("Price (high to low)")) {
-			 priceSortOperation(false);
-			 logger.info("Descending with Order Sort test passed");
-		 }
-		 
-		 }
+		}	 
 		
 	}
 	public void itemSortOperation(Boolean isAscending) throws IOException {

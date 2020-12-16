@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SwagLabsDemo]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.SwagLabsDemo.utilities.Reporting"/>
-  </listeners>
-  <test thread-count="5" name="SwagLabsDemo Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.SwagLabsDemo.testcases.SortItemsTest">
+      <class name="com.SwagLabsDemo.testcases.ShoppingCartTest">
         <methods>
-          <include name="sortItems"/>
           <include name="setup"/>
+          <include name="addToCartCheck"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.SwagLabsDemo.testcases.SortItemsTest -->
+      </class> <!-- com.SwagLabsDemo.testcases.ShoppingCartTest -->
     </classes>
-  </test> <!-- SwagLabsDemo Test(failed) -->
-</suite> <!-- Failed suite [SwagLabsDemo] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

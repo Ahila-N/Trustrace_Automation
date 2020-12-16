@@ -35,6 +35,25 @@ WebDriver ldriver;
 	@FindBy(how=How.XPATH, using ="//*[@class=\"inventory_item_price\"]")
 	List<WebElement> productPriceList;
 	
+	@FindBy(how=How.XPATH, using ="//button[@class=\"btn_primary btn_inventory\"]")
+	List<WebElement> addToCartButton;
+	
+	@FindBy(how=How.XPATH, using ="//button[@class=\"btn_secondary btn_inventory\"]")
+	List<WebElement> removeButton;
+	
+	@FindBy(how=How.XPATH, using ="//*[@class=\"shopping_cart_container\"]")
+	WebElement shoppingCartButton;
+	
+	@FindBy(how=How.XPATH, using ="//span[@class=\"fa-layers-counter shopping_cart_badge\"]")
+	WebElement addedItemCount;
+	
+	@FindBy(how=How.XPATH, using ="//*[@class=\"bm-burger-button\"]")
+	WebElement burgerButton;
+	
+	@FindBy(how=How.XPATH, using ="//*[@class=\"inventory_item\"]")
+	List<WebElement> itemDiv;
+	
+	
 	public List<String> getProductList()
 	{		
 		Iterator<WebElement> itr = productNameList.iterator();
@@ -71,6 +90,24 @@ WebDriver ldriver;
 	public void getSelectedOption(String selectedOption) {
 		Select comboValue = new Select(sortCombo);
 		comboValue.selectByVisibleText(selectedOption);	
+	}
+	
+	public void addToCart() {
+		Iterator<WebElement> itr = addToCartButton.iterator();
+		itr.next().click();
+		shoppingCartButton.click();
+	}
+	
+	public List<String> getaddedProductList()
+	{		
+		Iterator<WebElement> itr = itemDiv.iterator();
+		List<String> addedProductName = new ArrayList<String>();
+		List<String> addedProductPrice = new ArrayList<String>();
+		while(itr.hasNext()) {
+			itr.next().findElement((By)(removeButton)).isDisplayed();
+			addedProductName.add(itr.next().getText().toString());			 
+		}
+		return addedProductName;		
 	}
 	
 }
